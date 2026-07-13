@@ -116,8 +116,8 @@ padding: 10px;
 /*Secure spot start*/
 
 .pricing{
-    width: 70%;
-    margin: 80px auto;
+   
+    margin: 80px ;
 }
 .title{
     text-align: center;
@@ -133,9 +133,12 @@ padding: 10px;
 }
 .cards{
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: space-between; 
+    gap: 20px;
+     padding: 0px 80px;
+
 }
+
 .card{
     flex: 2; 
     border: 1px solid #ddd;
@@ -176,3 +179,61 @@ button{
     border: none;
 }
 /*Secure spot end*/
+
+/* Footer section start */
+.footer{
+    background: #0f172a;
+    color: white;
+    padding: 60px 10%;
+    margin-top: 100px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.footer-box{
+    flex: 1;
+    min-width: 220px;
+}
+.footer-box h2,
+.footer-box h3{
+   margin-bottom: 20px;
+}
+.footer-box p{
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+.footer-box a{
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: .3s;
+}
+.footer-box a:hover{
+   color: #8b5cf6;
+}
+.footer hr{
+    margin: 40px 0;
+    border: 1px solid #334155;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.policy{
+   display: flex;
+   gap: 20px;
+}
+.policy a{
+   color:#cbd5e1;
+   text-decoration: none;
+}
+.pokicy a:hover{
+    color: #8b5cf6;
+}
+/* Footer section end */
