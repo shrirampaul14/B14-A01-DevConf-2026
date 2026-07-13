@@ -74,7 +74,7 @@ ul li a{
 
 /* Banner section end */
 
-/* About section start */
+/* Meet the speaker section start */
 
 .about{
     padding: 80px 10%;
@@ -97,7 +97,6 @@ padding: 10px;
 .div{
     background-color: #f5f5f5;
     border-radius: 10px;
-    /* stroke: #E5E7EB; */
 }
 .div img{
     object-fit: cover;
@@ -112,12 +111,12 @@ padding: 10px;
 .div p{
     font-size: 17px;
 }
-/* About section end */
+/*Meet the speaker section end */
 
 /*Secure spot start*/
 
 .pricing{
-    width: 80%;
+    width: 70%;
     margin: 80px auto;
 }
 .title{
@@ -138,11 +137,42 @@ padding: 10px;
     gap: 30px;
 }
 .card{
-    flex: 1;
+    flex: 2; 
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 30px;
     display: flex;
     flex-direction: column;
+}
+.active{
+    background-color: #111827;
+    color: white;
+}
+.card h2{
+    font-size: 55px;
+    margin: 10px 0;
+}
+hr{
+    margin: 25px 0;
+}
+ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+li{
+    margin: 12px 0;
+}
+button{
+    margin-top:auto;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid purple;
+    background: white;
+    cursor: pointer;
+}
+.active button{
+    background: #6c3cff;
+    color: white;
+    border: none;
 }
 /*Secure spot end*/
